@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "不懂Java,不懂Python,不懂C++。精通中文，理解英语，喜欢折腾。 <br> React Team @ Meta"
+sidebar-about-description: "不懂Java,不懂Python,不懂C++。精通中文，理解英语，喜欢折腾。"
 sidebar-avatar: /img/icon_wechat.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
