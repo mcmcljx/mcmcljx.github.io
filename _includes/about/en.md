@@ -1,4 +1,4 @@
-Hey, I am Huang, Xuan (a.k.a. _@huxpro_). I worked on the [React Team](https://beta.reactjs.org/community/meet-the-team#react-core) at <del>Facebook</del>Meta.
+<!-- Hey, I am Huang, Xuan (a.k.a. _@huxpro_). I worked on the [React Team](https://beta.reactjs.org/community/meet-the-team#react-core) at <del>Facebook</del>Meta.
 
 I considered myself as a hybrid between a software engineer specifically into the programming languages theories and implementations domain (i.e. compiler, type system, type-based formal verification, virtual machine, runtime systems, garbage collection), and a creative technologiest deeply caring about many humanistic aspects (e.g. visual, sound, interaction) in UI and HCI in general.
 
@@ -35,4 +35,25 @@ I studied BA, Digital Media Art at [Communication University of China](https://e
 [9]: //huangxuan.me/jsconfcn2017/
 [10]: https://reactnative.dev/blog/2021/10/26/toward-hermes-being-the-default
 [11]: https://youtu.be/lGEMwh32soc
-[12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html
+[12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html -->
+
+Hi, I'm Li Junhao, a primary school student who knows a little about computers, likes to toss PCBs, electronic components, and my hometown is in a town in Handan, Hebei Province. Here is my personal blog, which mainly shares some technical articles, experiences, and some technologies that I am personally interested in.
+### Body
+
+Let's talk about the technical details of building this blog.  
+
+I happened to pay attention to the technical solution of [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) fast building blog before, which is very easy and stylish.
+
+The advantages are obvious:
+
+**Markdown** for an elegant writing experience
+* Very familiar Git workflow, **Git Commit is Blog Post**
+* Take advantage of GitHub Pages' domain name and free unlimited space instead of tossing around with hosting
+	* If you need to customize the domain name, you only need to simply change the DNS and add a CNAME 
+* Jekyll's customization is very easy and is basically a template engine
+
+Probably the biggest drawback is that GitHub is too slow to access domestically.
+
+### TNND, labor and management can't burst out a word for half a day, so let's write it when inspiration comes.
+
+
