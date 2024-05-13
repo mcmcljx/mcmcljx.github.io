@@ -44,7 +44,7 @@ tags:
 
 正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
 
-[~~早期李均灏个人网站~~](htpps://mcmcljx.github.io/mcmcljx)
+[~~早期李均灏个人网站~~](https://mcmcljx.github.io/mcmcljx)
 
 其优点非常明显：
 
