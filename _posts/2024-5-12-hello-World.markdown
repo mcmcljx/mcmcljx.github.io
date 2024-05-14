@@ -20,6 +20,7 @@ tags:
 
 这套博客基于[Hux Blog](https://github.com/Huxpro/huxpro.github.io)修改而来，感谢Hux的**开源**精神！
 ### 开源？什么是开源呢？
+*在我的博客中，我会提到很多关于开源的概念，希望能帮助你了解一下。*
 
 开源一词最初是指开源软件（OSS）。**开源软件是源代码可以任意获取的计算机软件，任何人都能查看、修改和分发他们认为合适的代码。**
 
@@ -42,16 +43,14 @@ tags:
 ## 正文
 接下来说说搭建这个博客的技术细节。  
 
-正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
-
-[~~早期李均灏个人网站~~](https://mcmcljx.github.io/mcmcljx)
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。[~~早期李均灏的个人网站~~](htpps://mcmcljx.github.io/mcmcljx)
 
 其优点非常明显：
 
 * **Markdown** 带来的优雅写作体验
 * 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
 * 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
-	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
+* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
 * Jekyll 的自定制非常容易，基本就是个模版引擎
 
 配置的过程中也没遇到什么坑，基本就是 Git 的流程，相当顺手
@@ -70,14 +69,39 @@ tags:
 3. 接着，修改仓库名为 `username.github.io`，其中 `username` 是你的 GitHub 用户名。
 ![img3](/img/IMG_20240513_140210.jpg)
 
-4. 选择你刚才 Fork 的仓库，然后点击 Settings 按钮。找到pages部分，将 Source 改为 master branch。发布方法选Github action，点击 Save。
+4. 选择你刚才 Fork 的仓库，然后点击 Settings 按钮。
 
 ![img4](/img/screenshot-1715580482438.png)
-4. 最后，修改 `_config.yml` 文件，把 `title`、`name`、`email`、`description` 等信息改成你自己的，然后就可以开始写博客啦！
 
-5. 当然，你也可以直接修改 `README.md` 文件来写博客，不过这样就没有目录结构，不利于管理。
+5. 找到pages部分，会发现一个“Build and deployment”的选项，点击Github action。
 
-6. 如果你想绑定自己的域名，可以去购买一个域名，然后在你的 DNS 解析设置中，将域名的 NS 记录改成 `username.github.io` 解析到 GitHub Pages 的 IP 地址。
+![img5](/img/screenshot-1715661267421.png)
+
+6. 下面会提示我们可以选择一个工作流，这里我们选择jekyll。
+
+![img6](/img/IMG_20240514_124610.jpg)
+7. 点击Start commit，然后点击Commit new file。
+![img7](/img/IMG_20240514_124630.jpg)
+
+![img7](/img/Screenshot_2024-05-14-12-48-10-559-edit_com.ss.android.ugc.aweme.jpg)
+
+8. 打开Actions页面.
+
+![img8](/img/Screenshot_2024-05-14-12-49-21-130-edit_com.ss.android.ugc.aweme.jpg)
+
+9. 可以看到，Actions已经开始运行了。
+
+![img9](/img/Screenshot_2024-05-14-12-58-56-231_com.ss.android.ugc.aweme.jpg)
+
+10. 等Actions运行完毕，就可以通过 `http://username.github.io` 访问你的博客啦！**(username 是你的 GitHub 用户名)**
+
+![img10](/img/Screenshot_2024-05-14-12-59-18-172_com.ss.android.ugc.aweme.jpg)
+
+11. 最后，修改 `_config.yml` 文件，把 `title`、`name`、`email`、`description` 等信息改成你自己的，然后就可以开始写博客啦！
+
+12. 当然，你也可以直接修改 `README.md` 文件来写博客，不过这样就没有目录结构，不利于管理。
+
+13. 如果你想绑定自己的域名，可以去购买一个域名，然后在你的 DNS 解析设置中，将域名的 NS 记录改成 `username.github.io` 解析到 GitHub Pages 的 IP 地址。
 
 这样，你就可以通过 `http://username.github.io` 访问你的博客啦！**(username 是你的 GitHub 用户名)**
 
