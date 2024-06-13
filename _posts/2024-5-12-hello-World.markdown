@@ -18,7 +18,7 @@ tags:
 
 ## 关于博客
 
-这套博客基于[Hux Blog](https://github.com/Huxpro/huxpro.github.io)修改而来，感谢Hux的**开源**精神！
+这套博客基于[Hux Blog](https://github.com/Huxpro/huxpro.github.io)修改而来，感谢Hux的**开源**!
 ### 开源？什么是开源呢？
 *在我的博客中，我会提到很多关于开源的概念，希望能帮助你了解一下。*
 
@@ -101,7 +101,7 @@ tags:
 
 12. 当然，你也可以直接修改 `README.md` 文件来写博客，不过这样就没有目录结构，不利于管理。
 
-13. 如果你想绑定自己的域名，可以去购买一个域名，然后在你的 DNS 解析设置中，将域名的 NS 记录改成 `username.github.io` 解析到 GitHub Pages 的 IP 地址。
+13. 如果你想绑定自己的域名，可以去购买一个域名，然后在你的 DNS 解析设置中，将域名的DNS 记录改成 `username.github.io` 解析到 GitHub Pages 的 IP 地址。
 
 这样，你就可以通过 `http://username.github.io` 访问你的博客啦！**(username 是你的 GitHub 用户名)**
 
