@@ -30,7 +30,7 @@ tags:
 # 网友投稿
 **匿名网友：**
 
-![imgb](/img/IMGb.jpg)
+![imgb](/img/IMG_20240613_183902.jpg)
              
 ![imga](/img/IMGa.jpg)
 
