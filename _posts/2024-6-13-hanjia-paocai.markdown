@@ -32,7 +32,7 @@ tags:
 
 ![imgb](/img/IMG_20240613_183902.jpg)
              
-![imga](/img/IMGa.jpg)
+![imga](/img/IMG_20240613_183913.jpg)
 
 
 
